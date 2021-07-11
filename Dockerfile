@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y python3 git python3-setuptools && \
   apt-get install -y python3-pip && pip3 install --no-cache-dir platformio && \
   apt-get autoremove -y python3-pip && apt-get clean && \
   yarn global add nodemon && \
-  cd /tmp && git clone https://github.com/arendst/Tasmota.git && \
+  cd /tmp && git clone https://github.com/bovirus/Tasmota.git && \
   rm -rf /var/lib/apt/lists/* 
 ADD public /tasmocompiler/public/
 ADD server /tasmocompiler/server/

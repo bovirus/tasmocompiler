@@ -23,7 +23,7 @@ const availableFeatures = [
   },
   {
     name: 'alexa',
-    value: false,
+    value: true,
     show: true,
     description: 'stepFeaturesAlexaDesc',
     group: ['USE_EMULATION', 'USE_EMULATION_HUE', 'USE_EMULATION_WEMO'],
@@ -225,7 +225,7 @@ const availableFeatures = [
   {
     name: 'USE_IR_REMOTE',
     value: false,
-    show: false,
+    show: true,
     description: 'stepFeaturesIRBasicDesc',
     tooltip: 'stepFeaturesIRBasicTooltip',
     exclude: ['USE_IR_REMOTE_FULL'],
@@ -268,7 +268,7 @@ const availableFeatures = [
   },
   {
     name: 'USE_RC_SWITCH',
-    value: false,
+    value: true,
     show: true,
     description: 'stepFeaturesRFTransceiverDesc',
     tooltip: 'stepFeaturesRFTransceiverTooltip',
@@ -277,7 +277,7 @@ const availableFeatures = [
   },
   {
     name: 'rules',
-    value: false,
+    value: true,
     show: true,
     description: 'stepFeaturesRulesDesc',
     tooltip: 'stepFeaturesRulesTooltip',

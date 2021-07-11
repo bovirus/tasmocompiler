@@ -20,8 +20,8 @@ class WifiStep extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      STA_SSID1: '',
-      STA_PASS1: '',
+      STA_SSID1: 'Marina-2.4-GHz',
+      STA_PASS1: 'Marina1964!',
       WIFI_IP_ADDRESS: '',
       WIFI_SUBNETMASK: '',
       WIFI_GATEWAY: '',

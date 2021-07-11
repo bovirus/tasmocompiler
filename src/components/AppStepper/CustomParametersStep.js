@@ -14,7 +14,7 @@ class CustomParametersStep extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      customParams: '',
+      customParams: '#define FIRMWARE_LITE',
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleNext = this.handleNext.bind(this);

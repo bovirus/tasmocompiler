@@ -2,7 +2,7 @@ const path = require('path');
 
 const WORKDIR = process.env.WORKDIR || '/tmp';
 const tasmotaRepo = path.resolve(WORKDIR, 'Tasmota');
-const githubRepo = 'https://github.com/arendst/Tasmota.git';
+const githubRepo = 'https://github.com/bovirus/Tasmota.git';
 const minVersion = 'v9.5.0';
 const edgeBranch = 'development';
 const userConfigOvewrite = path.resolve(
