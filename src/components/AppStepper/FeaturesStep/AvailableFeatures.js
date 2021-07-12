@@ -420,6 +420,16 @@ const availableFeatures = [
     description: 'stepFeaturesSPIDesc',
     boards: ['all'],
   },
+{
+    name: 'USE_WEBSERVER',
+    value: true,
+    show: true,
+    description: 'stepFeaturesWebInterfaceDesc',
+    tooltip: 'stepFeaturesWebInterfaceTooltip',
+    custom:
+      '#define FIRMWARE_LITE',
+    boards: ['all'],
+  },
 ];
 
 export default availableFeatures;
