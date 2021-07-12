@@ -7,7 +7,7 @@ const availableBoards = [
   {
     name: 'esp8266generic',
     chip_type: 'esp8266',
-    description: 'Generic',
+    description: 'Generica',
     default: true,
     show: true,
     platformio_entries: {},
@@ -64,7 +64,7 @@ const availableBoards = [
   {
     name: 'esp32generic',
     chip_type: 'esp32',
-    description: 'Generic',
+    description: 'Generica',
     default: false,
     show: true,
     platformio_entries: {
