@@ -29,7 +29,7 @@ const availableFeatures = [
   },
   {
     name: 'alexa',
-    value: false,
+    value: true,
     show: true,
     description: 'stepFeaturesAlexaDesc',
     group: ['USE_EMULATION', 'USE_EMULATION_HUE', 'USE_EMULATION_WEMO'],
@@ -292,7 +292,7 @@ const availableFeatures = [
   },
   {
     name: 'USE_RC_SWITCH',
-    value: false,
+    value: true,
     show: true,
     description: 'stepFeaturesRFTransceiverDesc',
     tooltip: 'stepFeaturesRFTransceiverTooltip',
@@ -301,7 +301,7 @@ const availableFeatures = [
   },
   {
     name: 'rules',
-    value: false,
+    value: true,
     show: true,
     description: 'stepFeaturesRulesDesc',
     tooltip: 'stepFeaturesRulesTooltip',
@@ -394,7 +394,7 @@ const availableFeatures = [
       'esp32odroid-go',
       'esp32m5',
       'esp32solo1',
-      'esp32c2',
+     'esp32c2',
       'esp32c3',
       'esp32c6',
       'esp32s2',

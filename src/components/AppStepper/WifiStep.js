@@ -21,8 +21,8 @@ class WifiStep extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      STA_SSID1: '',
-      STA_PASS1: '',
+      STA_SSID1: 'Marina-2.4-GHz',
+      STA_PASS1: 'Marina1964!',
       WIFI_IP_ADDRESS: '',
       WIFI_SUBNETMASK: '',
       WIFI_GATEWAY: '',
@@ -54,10 +54,10 @@ class WifiStep extends Component {
     // there is only one checkbox in this step
     this.setState({
       staticIPEnabled: event.target.checked,
-      WIFI_IP_ADDRESS: '',
-      WIFI_SUBNETMASK: '',
-      WIFI_GATEWAY: '',
-      WIFI_DNS: '',
+      WIFI_IP_ADDRESS: '192.168.1.125',
+      WIFI_SUBNETMASK: '255.255.255.0',
+      WIFI_GATEWAY: '192.168.1.1',
+      WIFI_DNS: '192.168.1.1',
     });
   }
 
