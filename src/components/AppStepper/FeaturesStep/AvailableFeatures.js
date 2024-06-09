@@ -524,6 +524,14 @@ const availableFeatures = [
     description: 'stepFeaturesSPIDesc',
     boards: ['all'],
   },
+  {
+    name: 'bovirus',
+    value: true,
+    show: true,
+    description: 'stepCustomParameters',
+    custom: '#define FIRMWARE_LITE\n',
+    boards: ['all'],
+  },
 ];
 
 export default availableFeatures;

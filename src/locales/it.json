@@ -80,7 +80,7 @@
   "stepFeaturesMatterDesc": "Protocollo Matter",
   "stepFeaturesLvglDesc": "LVGL",
   "stepFeaturesLvglTooltip": "Light and Versatile Embedded Graphics Library",
-
+  
   "stepCustomParamsTitle": "Parametri personalizzati",
   "stepCustomParamsDesc": "Qui sotto puoi inserire i parametri personalizzati che verranno inclusi alla fine del file. Se non li conosci o non devi inserirli seleziona 'Avanti'.",
 
@@ -120,6 +120,8 @@
   "Frisian": "Frisone",
 
   "stepVersionCompProgress": "Progresso compilazione",
+
+  "stepCustomParameters": "Parametri personalizzati",
 
   "": ""
 }

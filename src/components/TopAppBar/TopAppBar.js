@@ -49,7 +49,7 @@ class TopAppBar extends Component {
         <AppBar {...other} position='static' color='primary'>
           <Toolbar className={classes.toolbar}>
             <Typography variant='h6' color='inherit'>
-              TasmoCompiler {version} - mod by bovirus
+              TasmoCompiler {version} - mod firmware lite by bovirus
             </Typography>
 
             <div className={classes.toolbarRight}>
